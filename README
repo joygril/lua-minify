@@ -110,10 +110,68 @@ AddButton(Main, {
 })
 #A Lua tool for minifying and reverse engineering minified Lua code
 
-Usage:
 
-    lua minify.lua minify INPUTFILE > OUTPUTFILE 
 
-    lua minify.lua unminify INPUTFILE > OUTPUTFILE
 
-The purpose of the unminifier is to reverse engineer minified code. It both beautifies the code and renames the variables to descriptive names like "L_42_arg2" which can be easily find-replaced while trying to reverse engineer minified code.
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "سـكـربـت الـمـطـورة جـيـون ";
+    Text = "جـار تـحـمـيـل... "; -- ARAB TEAM
+    Duration = 5;
+})
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "مـن تـطـويـر الـمـطـورة جـيـون ";
+    Text = "جـار تـحـمـيـل... "; -- ARAB TEAM
+    Duration = 5;
+})
+local args = {
+    [1] = "RolePlayName",
+    [2] = "ッ Script JG Brookhaven ッ"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "By.DeveloperJeon ";
+    Text = " تـم تـحـمـيـل سـكـربـت "; -- ARAB TEAM
+    Duration = 5;
+})
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/joygril/JG-Script/refs/heads/main/Jeon-Hub.txt")))()
+MakeWindow({
+  Hub = {
+    Title = "- Script JG Brookhaven | V2.3 -",
+    Animation = "Script JG Brookhaven"
+  },
+  Key = {
+    KeySystem = false,
+    Title = "Key System",
+    Description = "",
+    KeyLink = "",
+    Keys = {"1234"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  }
+})
+
+MinimizeButton({
+  Image = "rbxassetid://6675147486",
+  Size = {50, 50},
+  Color = Color3.fromRGB(8, 0, 0),
+  Corner = true,
+  Stroke = false,
+  StrokeColor = Color3.fromRGB(0, 0, 0)
+})
+
+local Main = MakeTab({Name = "{  }"}) 
+
+
+
+
